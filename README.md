@@ -10,7 +10,7 @@ It allows the conversion of valid HTML in PDF format, to generate documents like
 
 #### Installation
 
-* download latest [.zip] [2] installation archive
+* download latest [addon.zip][2] installation archive
 * in CMS backend select the file from "Add-ons" -> "Modules" -> "Install module"
 
 #### First Steps
