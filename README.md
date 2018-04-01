@@ -17,7 +17,28 @@ It allows the conversion of valid HTML in PDF format, to generate documents like
 
 Go to https://html2pdf.fr/en/download and see what to do
 
+#### LEPTON_CMS quick test example given
+See [Html2Pdf at GitHub][4] for details!  
+
+Open a new (blank) Code2 section and paste:  
+```code
+$oPDF = lib_html2pdf::getInstance();
+
+use Spipu\Html2Pdf\Html2Pdf;
+
+$html2pdf = new Html2Pdf();
+$html2pdf->writeHTML('<h1>HelloWorld LEPTON_CMS</h1>This is my first test');
+
+// See details for the parameters at:
+// https://github.com/spipu/html2pdf/blob/master/doc/output.md
+$html2pdf->output( LEPTON_PATH.MEDIADIRECTORY'/pdf_file_xxxx.pdf', 'F');
+
+echo "file written!";
+
+````
+
 [1]: http://lepton-cms.org "LEPTON CMS"
 [2]: http://www.lepton-cms.com/lepador/libraries/lib_html2pdf.php
-
+[3]: https://html2pdf.fr/en/download "html2pdf"
+[4]: https://github.com/spipu/html2pdf/ "Html2Pdf at GitHub"
 
