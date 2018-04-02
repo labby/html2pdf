@@ -31,7 +31,7 @@ $html2pdf->writeHTML('<h1>HelloWorld LEPTON_CMS</h1>This is my first test');
 
 // See details for the parameters at:
 // https://github.com/spipu/html2pdf/blob/master/doc/output.md
-$html2pdf->output( LEPTON_PATH.MEDIADIRECTORY'/pdf_file_xxxx.pdf', 'F');
+$html2pdf->output( LEPTON_PATH.MEDIA_DIRECTORY'/pdf_file_xxxx.pdf', 'F');
 
 echo "file written!";
 
