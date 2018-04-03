@@ -34,7 +34,7 @@ if (defined('LEPTON_PATH')) {
 $module_directory = 'lib_html2pdf';
 $module_name      = 'html2pdf Library';
 $module_function  = 'library';
-$module_version   = '5.1.0.0';
+$module_version   = '5.1.0.1';
 $module_platform  = '4.x';
 $module_delete	  =  true;
 $module_author    = 'cms-lab';
